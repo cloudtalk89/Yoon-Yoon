@@ -144,7 +144,6 @@ export default function CuteAnimatedGift() {
         <circle cx="115" cy="120" r="3.5" fill="#4B5563" /> {/* Right Eye */}
         
         {/* Winking Left Eye */}
-        <circle cx="85" cy="120" r="2.5" fill="#FFB7D5" />
         
         {/* Blushing Cheeks */}
         <circle cx="78" cy="128" r="6" fill="#FFA3C9" fillOpacity="0.6"/>
