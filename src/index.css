@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+
+    /* Smooth floating/bop animation */
+    @keyframes vibe {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    /* Blinking eyes */
+    @keyframes blink {
+      0%, 90%, 100% { opacity: 1; }
+      95% { opacity: 0; }
+    }
+
+    /* Headphones pulsing */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+
+    /* Floating musical elements */
+    @keyframes floatUp {
+      0% { opacity: 0; transform: translateY(10px) scale(0.5); }
+      50% { opacity: 1; }
+      100% { opacity: 0; transform: translateY(-40px) scale(1.2); }
+    }
+
+    .character-head { animation: vibe 0.8s ease-in-out infinite; transform-origin: center; }
+    .eye-pupil { animation: blink 4s infinite; }
+    .earcup { animation: pulse 0.8s ease-in-out infinite; transform-origin: center; }
+    .particle { animation: floatUp 2s infinite ease-out; fill: #B983FF; }
+
