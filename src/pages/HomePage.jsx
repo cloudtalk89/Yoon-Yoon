@@ -6,7 +6,7 @@ const HomePage = () => {
   const [index,setIndex]  = useState(0)
   const  messages = ["No","Are You Sure?","I Made This For You","Please Click Yes","It's A Surprise","I Promise You Will Like It","It's Something I Know You Like","Please Click Yes","I Put A Lot Of Effort Into It"]
   return (
-    <section className='min-h-screen flex items-center justify-center flex-col gap-10 font-bold'>
+    <section className='min-h-dvh flex items-center justify-center flex-col gap-10 font-bold'>
         <h1 className="text-white text-xl md:text-4xl font-bold z-10">
           🎉 Happy Birthday! Yoon Yoon 🎉
         </h1>
